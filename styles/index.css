@@ -1,0 +1,155 @@
+
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+}
+
+
+.projectlistBox{
+    display: flex;
+    align-items: center;
+}
+
+
+.projectsTitle{
+    margin-left: 70px;
+}
+
+.projectlistBox > button {
+    background-color: #252641;
+    height: 80px;
+    width: 80px;
+    padding: 0;
+    margin: 10px;
+}
+.projectlistBox > button:hover {
+    background-color: #161120;
+}
+
+.projectlistBox > button > p {
+    color:#6b2fbb;
+    font-size: 30px;
+    margin: 0;
+}
+
+.projectlist {
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+
+.projectlist a {
+    margin: 0 8px;
+}
+
+.projectlist::-webkit-scrollbar {
+    display: none;
+}
+
+
+.threedots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.threedots p {
+  display: inline-block;
+  font-size: 70px;
+  color: #50159B;
+  font-family: 'Times New Roman';
+  line-height: 0px;
+  height: 0px;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+}
+
+.summary {
+    background-color: #323156; /* Set the background color */
+    color: #fff; /* Set text color to white */
+    border-radius: 10px; /* Set rounded corners */
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+    flex: 1;
+}
+
+
+.summary p {
+    font-size: 18px;
+}
+
+img {
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.projectlist img {
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+  }
+
+  
+.buttonbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 30px;
+    background-color: #50159B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b2fbb;
+}
+
+
+
+
+
+
+
+
+

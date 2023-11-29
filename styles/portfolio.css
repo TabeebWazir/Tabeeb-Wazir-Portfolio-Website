@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectlist div {
+    display: flex;
+    flex-direction: column;
+    background-color: #323156;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 25px;
+}
+
+img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.projectlist div h2{
+    text-align: center;
+    color: white;
+}
+
+.projectlist div h3{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    text-align: start;
+    color: white;
+}
+
+.projectlist div p{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: white;
+    white-space: normal;
+}
+
+.projectlist a {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 30px;
+    background-color: #50159B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.projectlist a:hover {
+    background-color: #6b2fbb;
+}
+

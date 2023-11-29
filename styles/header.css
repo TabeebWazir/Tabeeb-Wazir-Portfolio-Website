@@ -1,0 +1,41 @@
+header {
+    background-color: #161120;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav li:hover {
+    background-color: #323156;
+}
